@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.component
+package com.ayan.thor.ui.component
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
