@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext
+package com.ayan.thor
 
 import android.system.Os
 
