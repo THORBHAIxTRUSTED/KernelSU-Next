@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.component
+package com.ayan.thor.ui.component
 
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Box
