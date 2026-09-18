@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.screen
+package com.ayan.thor.ui.screen
 
 import android.content.Context
 import android.net.Uri
