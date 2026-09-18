@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.screen
+package com.ayan.thor.ui.screen
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
