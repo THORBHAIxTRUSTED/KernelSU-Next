@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.component.profile
+package com.ayan.thor.ui.component.profile
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons
