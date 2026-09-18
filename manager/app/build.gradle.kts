@@ -25,6 +25,14 @@ apksign {
 android {
     namespace = "com.ayan.thor"
 
+    defaultConfig {
+        applicationId = "com.ayan.thor"
+    }
+
+    buildTypes {
+        ...
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
