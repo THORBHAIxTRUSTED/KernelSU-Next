@@ -24,8 +24,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
-import com.rifsxd.ksunext.ui.LocalScrollState
-import com.rifsxd.ksunext.ui.rememberScrollConnection
+import com.ayan.thor.ui.LocalScrollState
+import com.ayan.thor.ui.rememberScrollConnection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -34,17 +34,17 @@ import androidx.core.content.edit
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.dropUnlessResumed
-import com.rifsxd.ksunext.ui.MainActivity
+import com.ayan.thor.ui.MainActivity
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.navigation.EmptyDestinationsNavigator
-import com.rifsxd.ksunext.Natives
-import com.rifsxd.ksunext.R
-import com.rifsxd.ksunext.ui.component.SwitchItem
-import com.rifsxd.ksunext.ui.util.refreshActivity
-import com.rifsxd.ksunext.ui.util.LocalSnackbarHost
-import com.rifsxd.ksunext.ui.util.LocaleHelper
+import com.ayan.thor.Natives
+import com.ayan.thor.R
+import com.ayan.thor.ui.component.SwitchItem
+import com.ayan.thor.ui.util.refreshActivity
+import com.ayan.thor.ui.util.LocalSnackbarHost
+import com.ayan.thor.ui.util.LocaleHelper
 
 /**
  * @author rifsxd
