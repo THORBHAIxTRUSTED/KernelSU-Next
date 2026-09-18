@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.component
+package com.ayan.thor.ui.component
 
 import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
