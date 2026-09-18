@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui
+package com.ayan.thor.ui
 
 import android.content.Context
 import android.content.Intent
