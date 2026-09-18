@@ -16,7 +16,7 @@ import com.ramcosta.composedestinations.generated.destinations.ModuleScreenDesti
 import com.ramcosta.composedestinations.generated.destinations.SettingScreenDestination
 import com.ramcosta.composedestinations.generated.destinations.SuperUserScreenDestination
 import com.ramcosta.composedestinations.spec.DirectionDestinationSpec
-import com.rifsxd.ksunext.R
+import com.ayan.thor.R
 
 enum class BottomBarDestination(
     val direction: DirectionDestinationSpec,
