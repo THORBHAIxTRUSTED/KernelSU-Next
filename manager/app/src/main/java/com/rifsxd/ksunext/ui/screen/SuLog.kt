@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.screen.sulog
+package com.ayan.thor.ui.screen
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.LinearOutSlowInEasing
