@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.profile
+package com.ayan.thor.profile
 
 /**
  * @author weishu
