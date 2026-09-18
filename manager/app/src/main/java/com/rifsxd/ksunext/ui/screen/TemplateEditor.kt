@@ -1,4 +1,4 @@
-package com.rifsxd.ksunext.ui.screen
+package com.ayan.thor.ui.screen
 
 import android.widget.Toast
 import androidx.activity.compose.BackHandler
