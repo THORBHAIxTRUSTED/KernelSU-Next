@@ -15,8 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.rifsxd.ksunext.ui.LocalScrollState
-import com.rifsxd.ksunext.ui.rememberScrollConnection
+import com.ayan.thor.ui.LocalScrollState
+import com.ayan.thor.ui.rememberScrollConnection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -27,10 +27,11 @@ import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.navigation.EmptyDestinationsNavigator
 import com.rifsxd.ksunext.Natives
-import com.rifsxd.ksunext.R
-import com.rifsxd.ksunext.ksuApp
-import com.rifsxd.ksunext.ui.component.SwitchItem
-import com.rifsxd.ksunext.ui.util.LocalSnackbarHost
+import com.ayan.thor.Natives
+import com.ayan.thor.R
+import com.ayan.thor.ksuApp
+import com.ayan.thor.ui.component.SwitchItem
+import com.ayan.thor.ui.util.LocalSnackbarHost
 
 /**
  * @author rifsxd
