@@ -1,4 +1,5 @@
 package com.ayan.thor.ui.screen
+import com.ayan.thor.Natives
 
 import android.content.Context
 import androidx.compose.foundation.layout.*
@@ -26,8 +27,6 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.navigation.EmptyDestinationsNavigator
-import com.ayan.thor.Natives
-import com.ayan.thor.Natives
 import com.ayan.thor.R
 import com.ayan.thor.ksuApp
 import com.ayan.thor.ui.component.SwitchItem

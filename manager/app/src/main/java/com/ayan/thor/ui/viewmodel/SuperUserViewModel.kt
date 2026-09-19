@@ -20,7 +20,7 @@ import androidx.lifecycle.ViewModel
 import com.ayan.thor.IKsuInterface
 import com.ayan.thor.Natives
 import com.ayan.thor.ksuApp
-import com.ayan.thor.ui.KsuService
+import com.ayan.thor.KsuService
 import com.ayan.thor.ui.util.HanziToPinyin
 import com.topjohnwu.superuser.ipc.RootService
 import com.topjohnwu.superuser.Shell
