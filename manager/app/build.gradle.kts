@@ -29,9 +29,6 @@ android {
         applicationId = "com.ayan.thor"
     }
 
-    buildTypes {
-        ...
-    }
 
     buildTypes {
         release {

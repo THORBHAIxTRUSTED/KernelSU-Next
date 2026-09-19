@@ -39,7 +39,7 @@ val managerVersionName by extra(getVersionName())
 
 fun getGitCommitCount(): Int {
     val process = Runtime.getRuntime().exec(arrayOf("git", "rev-list", "--count", "HEAD"))
-    return process.inputStream.bufferedReader().use { it.readText().trim().toInt() }
+    return process.inputStream.bufferedReader().use { it.readText().trim().toIntOrNull() ?: 3316 }
 }
 
 fun getGitDescribe(): String {
