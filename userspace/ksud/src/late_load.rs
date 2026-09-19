@@ -138,7 +138,7 @@ pub fn run(package_name: &String, kmi: Option<String>, allow_shell: bool) -> Res
         .args([
             "start",
             "-n",
-            &format!("{package_name}/com.ayan.thor.ui.MainActivity"),
+            &format!("{package_name}/com.anshu.kernelsu.ui.MainActivity"),
         ])
         .status();
 

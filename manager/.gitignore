@@ -9,3 +9,6 @@ captures
 local.properties
 key.jks
 thor-release.jks
+
+anshu-release.jks
+anshu-cert.der
