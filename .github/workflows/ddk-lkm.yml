@@ -33,7 +33,7 @@ jobs:
 
         echo "=== Building kernelsu.ko for KMI: ${{ inputs.kmi }} ==="
 
-        CONFIG_KSU=m CC=clang make
+        KSU_MANAGER_PACKAGE=com.ayan.thor CONFIG_KSU=m CC=clang make
         
         echo "=== Build completed ==="
 
@@ -112,9 +112,9 @@ jobs:
         MDIR=$(realpath .)
 
         if [ "$kmi" == "android17-6.18" ]; then
-          make -C $KDIR M=$MDIR MO=$MDIR compile_commands.json modules CONFIG_KSU=m CONFIG_KSU_X86_PATCH_SYSCALL_DISPATCHER=y $EXTRA_ARGS
+          make -C $KDIR M=$MDIR MO=$MDIR compile_commands.json modules CONFIG_KSU=m CONFIG_KSU_X86_PATCH_SYSCALL_DISPATCHER=y KSU_MANAGER_PACKAGE=com.ayan.thor $EXTRA_ARGS
         else
-          make -C $KDIR M=$MDIR src=$MDIR compile_commands.json modules CONFIG_KSU=m CONFIG_KSU_X86_PATCH_SYSCALL_DISPATCHER=y $EXTRA_ARGS
+          make -C $KDIR M=$MDIR src=$MDIR compile_commands.json modules CONFIG_KSU=m CONFIG_KSU_X86_PATCH_SYSCALL_DISPATCHER=y KSU_MANAGER_PACKAGE=com.ayan.thor $EXTRA_ARGS
         fi
         
         echo "=== Build completed ==="
