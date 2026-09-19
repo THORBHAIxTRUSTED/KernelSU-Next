@@ -23,10 +23,10 @@ apksign {
 }
 
 android {
-    namespace = "com.anshu.kernelsu"
+    namespace = "com.ayan.thor"
 
     defaultConfig {
-        applicationId = "com.anshu.kernelsu"
+        applicationId = "com.ayan.thor"
     }
 
 

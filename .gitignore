@@ -6,3 +6,6 @@ AGENTS.md
 /userspace/ksud/.lkm_image_bootstrap.o
 
 /anshu-cert.der
+
+/reayansu-cert.der
+/reayansu-cert.pem
