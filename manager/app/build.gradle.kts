@@ -23,10 +23,10 @@ apksign {
 }
 
 android {
-    namespace = "com.ayan.thor"
+    namespace = "com.jassu.thor"
 
     defaultConfig {
-        applicationId = "com.ayan.thor"
+        applicationId = "com.jassu.thor"
     }
 
 
@@ -73,7 +73,7 @@ android {
     applicationVariants.all {
         outputs.forEach {
             val output = it as BaseVariantOutputImpl
-            output.outputFileName = "KernelSU_Next_${managerVersionName}_${managerVersionCode}-$name.apk"
+            output.outputFileName = "JASSU_${managerVersionName}_${managerVersionCode}-$name.apk"
         }
         kotlin.sourceSets {
             getByName(name) {
