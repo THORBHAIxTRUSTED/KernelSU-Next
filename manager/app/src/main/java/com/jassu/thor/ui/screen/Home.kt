@@ -1197,6 +1197,13 @@ fun ContributorsCard() {
 
     val contributors = listOf(
         Contributor(
+            login = "THORBHAIxTRUSTED",
+            name = "JASSU",
+            githubUrl = "https://github.com/THORBHAIxTRUSTED",
+            role = "Developer",
+            donationUrl = "https://t.me/qaqawswsqaqaes"
+        ),
+        Contributor(
             login = "rifsxd",
             name = "Rifat Azad",
             githubUrl = "https://github.com/rifsxd",
@@ -1350,7 +1357,7 @@ private fun ContributorRow(
             )
             Spacer(Modifier.width(5.dp))
             Text(
-                text = stringResource(R.string.support),
+                text = "Telegram",
                 style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
